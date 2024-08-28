@@ -4,9 +4,9 @@ import { useState } from "react";
 function StateComponentQ() {
 
   let [cnt, setCnt] = useState('0');
-  let increase = () => {
-    setCnt ( prev => prev + 1);
-  }
+  // let increase = () => {
+  //   setCnt ( prev => prev + 1);
+  // }
 
 
   return (
