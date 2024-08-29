@@ -5,9 +5,13 @@ function Home() {
   return (
     <div>
       <h3>홈페이지입니다</h3>
-      <Link to='/user'>user 페이지</Link>
+      <Link to='/user?name=홍길동&age=20'>user페이지</Link>
       <br/>
-      <Link to='/info'>info 페이지</Link>
+      <Link to='/info/1'>info페이지</Link>
+      <br/>
+      <Link to='/info/2'>info2페이지</Link>
+      <br/>
+      <Link to='/info/3'>info3페이지</Link>
     </div>
   )
 }
